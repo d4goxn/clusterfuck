@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "main": "index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^0.7.0",
+    "babel": "^6.1.5",
+    "koa": "^1.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.8.1"
+  }
+}

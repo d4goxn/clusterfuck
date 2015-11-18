@@ -9,6 +9,7 @@
     "koa": "^1.1.2"
   },
   "devDependencies": {
+    "babel-core": "^6.1.21",
     "nodemon": "^1.8.1"
   }
 }

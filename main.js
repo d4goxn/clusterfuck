@@ -14,7 +14,7 @@ function master(requestsPerCycle, cycleTime) {
 		cluster.fork();
 	});
 
-	console.log(`${os.cpus().length} happy, lazy dwarves go to work for a demanding, impatient master. How many will make it home?`);
+	console.log(`${os.cpus().length} happy, lazy dwarves go to work for a demanding, impatient master`);
 	setTimeout(() => {
 		setInterval(() => {
 			for (let i = 0; i < requestsPerCycle; i++) {
